@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f3f6f4; color: #1c3334; font: 1rem/1.55 system-ui,sans-serif; }
+main { max-width: 46rem; margin: 4rem auto; padding: 0 1.25rem; }
+h1 { font-size: clamp(2rem,6vw,3rem); line-height: 1.05; }
+section { background: white; padding: 1.5rem; border: 1px solid #c2d2ca; border-radius: .75rem; }
+label, legend { display: block; font-weight: 600; }
+textarea, select, button { font: inherit; padding: .5rem; }
+textarea, select { width: 100%; margin: .4rem 0 1rem; }
+textarea, output { font-family: ui-monospace,monospace; }
+fieldset { border: 1px solid #c2d2ca; } fieldset label { margin: .3rem 0; }
+output { display: block; white-space: pre-wrap; overflow-wrap: anywhere; margin: 1rem 0; }
+button { background: #175749; color: white; border: 0; border-radius: .3rem; cursor: pointer; }
+footer { margin-top: 1rem; } a { color: #175749; }
